@@ -1,0 +1,25 @@
+{
+	"name": "backend-challenge",
+	"version": "1.0.0",
+	"description": "This repository is a first touch at a backend service to serve the data for Waldo.",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_ENV=development node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chai": "^4.1.2",
+		"chai-http": "^4.0.0",
+		"config": "^2.0.1",
+		"express": "^4.16.3",
+		"happiness": "^10.0.2",
+		"mocha": "^5.2.0",
+		"winston": "^3.0.0"
+	}
+}
