@@ -3,9 +3,9 @@
  */
 
 const express = require('express');
-const applications = require('./applications');
 
 const router = express.Router();
-router.use('/applications', applications);
+router.use('/applications', require('./applications'));
+router.use('/comparisons', require('./comparisons'));
 
 module.exports = router;

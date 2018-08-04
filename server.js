@@ -3,11 +3,15 @@
  */
 
 const express = require('express');
+const bodyParser = require('body-parser');
 
 const apiRouter = require('./api');
 const log = require('./log');
+const db = require('./db');
 
 const server = express();
+
+server.use(bodyParser.json());
 
 server.use('/', apiRouter);
 

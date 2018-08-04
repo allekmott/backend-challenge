@@ -1,0 +1,22 @@
+
+REQUIREMENTS
+============
+It is assumed that the user has a UNIX-like shell, and the NPM command line utility.
+
+BUILD
+=====
+First, install all of the node depencencies:
+1. navigate, in terminal, to the root directory of the git repository
+2. run: `npm install`
+
+Then, the local database will need to be constructed:
+1. still in the base of the repository:
+2. run `./node_modules/knex/bin/cli.js migrate:latest`
+
+DONE.
+
+RUN
+===
+To run, navigate to the root directory of the repo.
+Then, run: `npm start`
+
